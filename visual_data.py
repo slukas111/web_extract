@@ -1,6 +1,4 @@
-import pandas as pd 
+import pandas as pd
 
-data = pd.read_csv("iphone_price.csv")
-print(data)
-
-
+data = pd.read_csv('iphone_price.csv')
+print(data['version'])

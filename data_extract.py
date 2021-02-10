@@ -32,7 +32,7 @@ for row in rows:
         pass
 # print(phone_dict)
 
-csv = open('iphone_price', 'a')
+csv = open('iphone_price.csv', 'a')
 csv.write('version, price\n')
 
 for key in phone_dict:
